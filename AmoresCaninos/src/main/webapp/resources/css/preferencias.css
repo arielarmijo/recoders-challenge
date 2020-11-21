@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+input[type=radio], input[type=checkbox] {
+	margin-right: 8px;
+}
+
+span {
+	padding: 0 10px;
+}
+
+div.form-inline > label:first-of-type, #ccasLabel  {
+	font-weight: bold;
+}
+
+.genero {
+	display: flex;
+	align-items: flex-start;
+}
+
+.genero span label{
+	display: inline-block;
+}
+
+.genero label {
+	padding-right: 10px;
+}
+
+.column-container small{
+		display: block;
+}
+	 
+@media (min-width: 768px) {
+	.column-container{
+		column-count: 2;
+	 }
+}
+
+@media (min-width: 992px) {
+	.column-container{
+		column-count: 3;
+	 }
+}
+

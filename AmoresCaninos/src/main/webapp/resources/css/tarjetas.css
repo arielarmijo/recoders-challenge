@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.contenedor-tarjetas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 32px 0;
+}
+
+.tarjeta {
+	border-radius: 4px;
+	border: 1px solid #eee;
+	background-color: #fafafa;
+	height: 40px;
+	width: 250px;
+	margin: 0 8px 16px;
+	padding: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.2s ease-in-out;
+}
+
+.tarjeta:hover {
+	text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(105, 5, 15, 0.35);
+}
+
+.tarjeta span {
+	padding: 0px 10px;
+}
+
+.contenedor-tarjetas a, .contenedor-tarjetas a:visited, .contenedor-tarjetas a:hover {
+	text-decoration: none;
+}
