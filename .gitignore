@@ -3,6 +3,4 @@ Servers/
 **/.apt_generated/
 **/.apt_generated_tests/
 **/target/
-**/.classpath
-**/.project
 AmoresCaninos/challenge/datamodeler/
