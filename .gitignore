@@ -2,7 +2,6 @@
 Servers/
 **/.apt_generated/
 **/.apt_generated_tests/
-**/.settings/
 **/target/
 **/.classpath
 **/.project
