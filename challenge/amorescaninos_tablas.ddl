@@ -1,3 +1,14 @@
+/*
+DROP SEQUENCE raza_seq;
+DROP SEQUENCE caracteristica_seq;
+DROP SEQUENCE perfil_seq;
+*/
+
+CREATE SEQUENCE raza_seq START WITH 22 INCREMENT BY 1;
+CREATE SEQUENCE caracteristica_seq START WITH 52 INCREMENT BY 1;
+CREATE SEQUENCE perfil_seq START WITH 25 INCREMENT BY 1;
+
+
 -- select 'drop table ', table_name, 'cascade constraints;' from user_tables;
 
 /*

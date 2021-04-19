@@ -1,4 +1,4 @@
-package com.talento.amorescaninos.controller;
+package tk.monkeycode.amorescaninos.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.talento.amorescaninos.domain.Preferencia;
-import com.talento.amorescaninos.service.AmoresCaninosService;
+import tk.monkeycode.amorescaninos.domain.Preferencia;
+import tk.monkeycode.amorescaninos.service.AmoresCaninosService;
 
 @Controller
 public class MatchController {

@@ -1,11 +1,11 @@
-package com.talento.amorescaninos.service;
+package tk.monkeycode.amorescaninos.service;
 
 import java.util.List;
 
-import com.talento.amorescaninos.domain.Preferencia;
-import com.talento.amorescaninos.domain.entity.Caracteristica;
-import com.talento.amorescaninos.domain.entity.Perfil;
-import com.talento.amorescaninos.domain.entity.Raza;
+import tk.monkeycode.amorescaninos.domain.Preferencia;
+import tk.monkeycode.amorescaninos.domain.entity.Caracteristica;
+import tk.monkeycode.amorescaninos.domain.entity.Perfil;
+import tk.monkeycode.amorescaninos.domain.entity.Raza;
 
 public interface AmoresCaninosService {
 	

@@ -1,4 +1,4 @@
-package com.talento.amorescaninos.config;
+package tk.monkeycode.amorescaninos.config;
 
 import java.beans.PropertyVetoException;
 import java.util.Properties;
@@ -21,7 +21,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 @Configuration
 @PropertySource("classpath:db.properties")
-@EnableJpaRepositories(basePackages = {"com.talento.amorescaninos.repository"})
+@EnableJpaRepositories(basePackages = {"tk.monkeycode.amorescaninos.repository"})
 @EnableTransactionManagement
 public class AppConfig {
 
@@ -55,7 +55,7 @@ public class AppConfig {
 		jpaProperties.setProperty("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto"));
 		LocalContainerEntityManagerFactoryBean entityManager = new LocalContainerEntityManagerFactoryBean();
 		entityManager.setDataSource(dataSource);
-		entityManager.setPackagesToScan("com.talento.amorescaninos.domain.entity");
+		entityManager.setPackagesToScan("tk.monkeycode.amorescaninos.domain.entity");
 		entityManager.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
 		entityManager.setJpaProperties(jpaProperties);
 		return entityManager;

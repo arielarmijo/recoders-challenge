@@ -4,14 +4,14 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 32px 0;
+	margin: 100px 0 0 0;
 }
 
 .tarjeta {
 	border-radius: 4px;
-	border: 1px solid #eee;
-	background-color: #fafafa;
-	height: 40px;
+	border: 1px solid gray;
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 60px;
 	width: 250px;
 	margin: 0 8px 16px;
 	padding: 16px;
@@ -20,12 +20,14 @@
 	justify-content: center;
 	align-items: center;
 	transition: all 0.2s ease-in-out;
+	color: white;
 }
 
 .tarjeta:hover {
 	text-decoration: none;
-  transform: translateY(-3px);
-  box-shadow: 0 4px 17px rgba(105, 5, 15, 0.35);
+  	transform: translateY(-3px);
+  	box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  	color: gray;
 }
 
 .tarjeta span {

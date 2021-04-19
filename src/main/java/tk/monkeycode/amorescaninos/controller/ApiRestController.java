@@ -1,4 +1,4 @@
-package com.talento.amorescaninos.controller;
+package tk.monkeycode.amorescaninos.controller;
 
 import java.util.List;
 
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.talento.amorescaninos.domain.entity.Caracteristica;
-import com.talento.amorescaninos.domain.entity.Perfil;
-import com.talento.amorescaninos.domain.entity.Raza;
-import com.talento.amorescaninos.service.AmoresCaninosService;
+import tk.monkeycode.amorescaninos.domain.entity.Caracteristica;
+import tk.monkeycode.amorescaninos.domain.entity.Perfil;
+import tk.monkeycode.amorescaninos.domain.entity.Raza;
+import tk.monkeycode.amorescaninos.service.AmoresCaninosService;
 
 @RestController
 @RequestMapping("/api")

@@ -17,8 +17,7 @@
 </head>
 <body>
 	<%@ include file="/WEB-INF/jspf/navbar.jspf" %>
-	<%@ include file="/WEB-INF/jspf/header.jspf" %>
-	<main class="container">
+	<main class="container mt-5">
 		<c:choose>
 			<c:when test="${empty perfiles}">
 				<p class="alert alert-danger">No se encontraron perfiles</p>

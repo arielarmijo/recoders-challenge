@@ -1,4 +1,4 @@
-package com.talento.amorescaninos.domain.entity;
+package tk.monkeycode.amorescaninos.domain.entity;
 
 import java.util.Set;
 

@@ -11,8 +11,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.talento.amorescaninos.config.AppConfig;
-import com.talento.amorescaninos.domain.entity.Perfil;
+import tk.monkeycode.amorescaninos.config.AppConfig;
+import tk.monkeycode.amorescaninos.domain.entity.Perfil;
+import tk.monkeycode.amorescaninos.repository.PerfilRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AppConfig.class)

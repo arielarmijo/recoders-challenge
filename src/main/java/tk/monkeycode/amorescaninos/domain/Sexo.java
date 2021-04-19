@@ -1,4 +1,4 @@
-package com.talento.amorescaninos.domain;
+package tk.monkeycode.amorescaninos.domain;
 
 public enum Sexo {
 

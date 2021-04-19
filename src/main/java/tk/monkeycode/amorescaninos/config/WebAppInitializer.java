@@ -1,4 +1,4 @@
-package com.talento.amorescaninos.config;
+package tk.monkeycode.amorescaninos.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

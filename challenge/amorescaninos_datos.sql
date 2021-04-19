@@ -93,7 +93,7 @@ INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
   VALUES (8,'Princess','Hembra',4,'¿Piensas que puedes controlarme? Vamos, inténtalo','https://www.animalfiel.com/wp-content/uploads/2020/09/tipos-de-chow-chow.jpg',16);
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
-  VALUES (9,'Alexa','Hembra',7,'La vida se pasa mejor en compañía','https://www.mundoperro.net/wp-content/uploads/San-Bernardo-hembra.jpg',1);
+  VALUES (9,'Alexa','Hembra',7,'La vida se pasa mejor en compañía','https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Hummel_Vedor_vd_Robandahoeve.jpg/1024px-Hummel_Vedor_vd_Robandahoeve.jpg',1);
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
   VALUES (10,'Lucy','Hembra',3,'No hay nada mejor que pasar el día bajo el sol','https://vidcdn.123rf.com/450nwm/jamesbenet123/jamesbenet1231401/jamesbenet123140100575.jpg',13);
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
@@ -101,11 +101,11 @@ INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
   VALUES (12,'Talibán','Macho',5,'Vamos a correr temprano','https://animalmascota.com/wp-content/2013/10/Cuidados-para-los-perros-en-el-campo.jpg',19);
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
-  VALUES (13,'Atka','Hembra',5,'Todos me dicen que soy diferente, pero no les hago caso','https://static.wikia.nocookie.net/reinoanimalia/images/8/88/Zorro_rojo_4.png/revision/latest/top-crop/width/360/height/450?cb=20130514223627&path-prefix=es',19);
+  VALUES (13,'Atka','Hembra',5,'Todos me dicen que soy diferente, pero no les hago caso','https://cdn.pixabay.com/photo/2014/09/04/00/15/australian-shepherd-435208__340.jpg',19);
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
   VALUES (14,'Zuky','Hembra',3,'¡¡Vamos, tira la pelota!!','https://petplan.es/wp-content/uploads/2018/11/Border-Collie-1.jpg',15);
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
-  VALUES (15,'Conan','Macho',3,'Una buena comida y una tarde de siesta le alegran la vida a cualquiera','https://web.whatsapp.com/ecf06ddc-30a6-41ff-a8f2-667539c73546',19);
+  VALUES (15,'Conan','Macho',3,'Una buena comida y una tarde de siesta le alegran la vida a cualquiera','https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Canis_lupus_familiaris_Perro_Mestizo.JPG/800px-Canis_lupus_familiaris_Perro_Mestizo.JPG',19);
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
   VALUES (16,'Loba','Hembra',3,'Cuidadito, aquí la que manda soy yo','https://www.hola.com/imagenes/estar-bien/20180823128631/cosas-que-quizas-no-sabias-de-tu-pastor-aleman-cs/0-593-146/cosassobrepastoraleman-t.jpg?filter=w600&filter=ds75',3);
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
@@ -251,3 +251,5 @@ INSERT INTO perfil_has_caracteristica (perfil_id, caracteristica_id) VALUES (25,
 INSERT INTO perfil_has_caracteristica (perfil_id, caracteristica_id) VALUES (25,44);
 INSERT INTO perfil_has_caracteristica (perfil_id, caracteristica_id) VALUES (25,49);
 INSERT INTO perfil_has_caracteristica (perfil_id, caracteristica_id) VALUES (25,52);
+
+commit;

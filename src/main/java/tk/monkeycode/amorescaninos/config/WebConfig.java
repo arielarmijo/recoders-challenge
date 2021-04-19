@@ -1,4 +1,4 @@
-package com.talento.amorescaninos.config;
+package tk.monkeycode.amorescaninos.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.talento.amorescaninos")
+@ComponentScan("tk.monkeycode.amorescaninos")
 public class WebConfig implements WebMvcConfigurer {
 	
 	@Override

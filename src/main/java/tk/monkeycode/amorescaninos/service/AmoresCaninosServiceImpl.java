@@ -1,4 +1,4 @@
-package com.talento.amorescaninos.service;
+package tk.monkeycode.amorescaninos.service;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -8,14 +8,14 @@ import java.util.stream.Stream;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.talento.amorescaninos.domain.Preferencia;
-import com.talento.amorescaninos.domain.Sexo;
-import com.talento.amorescaninos.domain.entity.Caracteristica;
-import com.talento.amorescaninos.domain.entity.Perfil;
-import com.talento.amorescaninos.domain.entity.Raza;
-import com.talento.amorescaninos.repository.CaracteristicaRepository;
-import com.talento.amorescaninos.repository.PerfilRepository;
-import com.talento.amorescaninos.repository.RazaRepository;
+import tk.monkeycode.amorescaninos.domain.Preferencia;
+import tk.monkeycode.amorescaninos.domain.Sexo;
+import tk.monkeycode.amorescaninos.domain.entity.Caracteristica;
+import tk.monkeycode.amorescaninos.domain.entity.Perfil;
+import tk.monkeycode.amorescaninos.domain.entity.Raza;
+import tk.monkeycode.amorescaninos.repository.CaracteristicaRepository;
+import tk.monkeycode.amorescaninos.repository.PerfilRepository;
+import tk.monkeycode.amorescaninos.repository.RazaRepository;
 
 @Service
 public class AmoresCaninosServiceImpl implements AmoresCaninosService {

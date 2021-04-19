@@ -5,15 +5,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.talento</groupId>
-	<artifactId>AmoresCaninos</artifactId>
+	<groupId>tk.monkeycode</groupId>
+	<artifactId>amorescaninos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>Amores Caninos</name>
 	<description>Desafío ReCoders</description>
 	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
+	<url>http://mokeycode.tk/amorescaninos</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,7 +23,7 @@
 
 	<dependencies>
 		<!-- API REST -->
-	    <dependency>
+		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-rest-webmvc</artifactId>
 			<version>3.4.1</version>
@@ -92,10 +92,15 @@
 			<version>1.18.16</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.12</version>
+		</dependency>
 	</dependencies>
 
 	<build>
-		<finalName>AmoresCaninos</finalName>
+		<finalName>${project.artifactId}</finalName>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
 				defaults (may be moved to parent pom) -->
 			<plugins>
@@ -120,8 +125,8 @@
 					<artifactId>maven-war-plugin</artifactId>
 					<version>3.2.2</version>
 					<configuration>
-				        <failOnMissingWebXml>false</failOnMissingWebXml>    
-				    </configuration>
+						<failOnMissingWebXml>false</failOnMissingWebXml>
+					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-install-plugin</artifactId>

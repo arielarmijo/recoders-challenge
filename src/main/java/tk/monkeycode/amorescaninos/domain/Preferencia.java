@@ -1,4 +1,4 @@
-package com.talento.amorescaninos.domain;
+package tk.monkeycode.amorescaninos.domain;
 
 import java.util.ArrayList;
 import java.util.List;
