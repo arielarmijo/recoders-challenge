@@ -1,14 +1,12 @@
-<nav class="navbar navbar-expand-md align-items-end shadow">
+<nav class="navbar navbar-light align-items-end shadow bg-light">
 	<a class="navbar-brand" href="<c:url value="/"/>">
-		<img alt="logo" src="<c:url value="/resources/img/logo.png"/>" height="100"> Amores Caninos
+		<img class="rounded-circle" alt="logo" src="<c:url value="/resources/img/logo.png"/>" height="60">
+		<span class="text-secondary">Amores Caninos</span>
 	</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsed">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse justify-content-end" id="navbarCollapsed">
-		<div class="navbar-nav align-items-center">
+	<div class="">
+		<div class="navbar-nav flex-row justify-content-center mr-3">
 			<a class="nav-link" href="<c:url value="/"/>">Inicio</a>
-			<a class="nav-link" href="<c:url value="/buscarPerfil"/>">Buscar</a>
+			<a class="nav-link mx-3" href="<c:url value="/buscarPerfil"/>">Buscar</a>
 			<a class="nav-link" href="<c:url value="/perfiles"/>">Perfiles</a>
 		</div>
 	</div>

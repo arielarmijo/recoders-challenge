@@ -1,9 +1,9 @@
-<footer class="text-center mt-5">
-	<h6>Amores Caninos &copy;2020</h6>
+<footer class="text-center text-dark py-2 bg-light">
+	<h6 class="m-0">Amores Caninos 2020</h6>
 	<small class="text-muted">
 		<span>Desarrollado por Ariel Armijo</span>
-		<a href="https://github.com/cochayuyo/"><i class='fab fa-github'></i></a>
-		<a href="mailto:arielarmijo@yahoo.es"><i class='fas fa-envelope-open'></i></a>
-		<a href="https://www.linkedin.com/in/arielarmijo/"><i class='fab fa-linkedin'></i></a>
+		<a href="https://github.com/cochayuyo/"><i class='fab fa-github text-muted'></i></a>
+		<a href="mailto:arielarmijo@yahoo.es"><i class='fas fa-envelope-open text-muted'></i></a>
+		<a href="https://www.linkedin.com/in/arielarmijo/"><i class='fab fa-linkedin text-muted'></i></a>
 	</small>
 </footer>

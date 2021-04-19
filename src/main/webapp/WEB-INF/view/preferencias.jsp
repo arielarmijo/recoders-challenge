@@ -15,7 +15,7 @@
 </head>
 <body>
 	<%@ include file="/WEB-INF/jspf/navbar.jspf" %>
-	<main class="container mt-5">
+	<main class="container my-5">
 		<div class="card shadow col-md-10 col-lg-8 mx-auto">
 			<div class="card-header">
 				<h3>Preferencias</h3>
