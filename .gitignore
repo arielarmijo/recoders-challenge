@@ -1,1 +1,2 @@
-target/
+**/target
+challenge/zoom
