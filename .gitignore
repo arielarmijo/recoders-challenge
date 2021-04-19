@@ -1,6 +1,1 @@
-.metadata/
-Servers/
-**/.apt_generated/
-**/.apt_generated_tests/
-**/target/
-AmoresCaninos/challenge/datamodeler/
+target/

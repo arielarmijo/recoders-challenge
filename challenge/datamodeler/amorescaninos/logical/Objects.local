@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="EDF1165C-255D-1348-363F-47877DB74C9C" name="raza" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BAC85873-F47A-7BD8-F063-4087CB66F1B4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4810E9DE-CA64-3E66-D769-FCB758E8C11A" name="perfil" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BAC85873-F47A-7BD8-F063-4087CB66F1B4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="418A28A2-C984-566A-C183-941104CFC2BB" name="caracteristica" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BAC85873-F47A-7BD8-F063-4087CB66F1B4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="D9FEDF2B-FB40-E7DA-21A9-32CA80383014" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="BAC85873-F47A-7BD8-F063-4087CB66F1B4" propertySourceId="4810E9DE-CA64-3E66-D769-FCB758E8C11A" propertyTargetId="EDF1165C-255D-1348-363F-47877DB74C9C"/>
+   <object objectType="Relation" objectID="FB11B61B-D455-999D-C913-9BED2EB088B4" name="perfil_has_caracteristica" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="BAC85873-F47A-7BD8-F063-4087CB66F1B4" propertySourceId="4810E9DE-CA64-3E66-D769-FCB758E8C11A" propertyTargetId="418A28A2-C984-566A-C183-941104CFC2BB"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

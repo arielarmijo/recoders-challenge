@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4810E9DE-CA64-3E66-D769-FCB758E8C11A" name="perfil">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>22496903-E634-4F74-F9F5-B2E79DE0D07A</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="51E1B96F-E434-7A5E-0949-0F510CCB4553">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>8C617289-3C5F-13CB-838C-8485346B193B</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="CAC63265-12D6-FFA6-D666-CF9D525AF4F6">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>0C19A17E-C749-CE3D-C262-627B5B59FB21</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="F94796DC-82B9-F01B-E4C9-7DD3ED0ABEF9">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>505D34DC-EAAC-1446-6B7A-6EDC55798F33</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="1E761E0F-15FE-CFE7-AE14-6A78CA0B12D0">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>4E51ADE3-ACF6-CE46-DCF3-5EB6E8E3C298</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frase" id="ABFD4E13-C888-4122-7DBA-E6F5DD0040F1">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>F60F9536-D9B1-5B84-A715-C9326174C2DE</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url imagen" id="F95D54CC-0F18-BC27-C612-0EA3904B6EAE">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>83BC065C-991B-7FBB-0BC9-9DF481343CE4</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A1D24F5D-46AF-E3F0-95E0-6552EA41A406">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:14:37 UTC</createdTime>
+<generatorID>D9FEDF2B-FB40-E7DA-21A9-32CA80383014</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<referedAttribute>8DA7F4A0-BF3F-2151-F9E4-FC2DE28C8CBA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="011FFDAE-E9C4-3AD0-443D-600AA525980E" name="perfil PK">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>5BC88E9F-9C52-67C7-19C7-E258099C5405</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51E1B96F-E434-7A5E-0949-0F510CCB4553</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

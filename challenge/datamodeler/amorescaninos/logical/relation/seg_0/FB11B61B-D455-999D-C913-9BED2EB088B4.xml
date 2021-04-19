@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="perfil_has_caracteristica" directorySegmentName="seg_0" id="FB11B61B-D455-999D-C913-9BED2EB088B4">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:15:11 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4810E9DE-CA64-3E66-D769-FCB758E8C11A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>418A28A2-C984-566A-C183-941104CFC2BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

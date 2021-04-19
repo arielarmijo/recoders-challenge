@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22496903-E634-4F74-F9F5-B2E79DE0D07A" name="perfil">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:07:14 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8C617289-3C5F-13CB-838C-8485346B193B">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:09:14 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="0C19A17E-C749-CE3D-C262-627B5B59FB21">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:09:14 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="505D34DC-EAAC-1446-6B7A-6EDC55798F33">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:09:14 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="4E51ADE3-ACF6-CE46-DCF3-5EB6E8E3C298">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:09:14 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="frase" id="F60F9536-D9B1-5B84-A715-C9326174C2DE">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:09:14 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url_imagen" id="83BC065C-991B-7FBB-0BC9-9DF481343CE4">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:09:14 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="raza_id" id="793F28D8-10D6-52A6-881D-218098F4C9BE">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:15:50 UTC</createdTime>
+<generatorID>A1D24F5D-46AF-E3F0-95E0-6552EA41A406</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0074E071-CE5F-9914-24F9-91E514A8DDC8" referredColumn="892F9EFC-A9DF-7C0F-BE7E-C737EDAE13C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BC88E9F-9C52-67C7-19C7-E258099C5405" name="perfil_PK">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:09:14 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C617289-3C5F-13CB-838C-8485346B193B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F931956F-9033-50F3-65B6-12291DB7FAA7" name="perfil_raza_FK">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:15:50 UTC</createdTime>
+<generatorID>D9FEDF2B-FB40-E7DA-21A9-32CA80383014</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="793F28D8-10D6-52A6-881D-218098F4C9BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

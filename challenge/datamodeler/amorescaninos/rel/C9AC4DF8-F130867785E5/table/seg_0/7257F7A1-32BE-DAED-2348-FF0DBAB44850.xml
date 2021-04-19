@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7257F7A1-32BE-DAED-2348-FF0DBAB44850" name="perfil_has_caracteristica">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:15:50 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<ordsAlias>relation_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="perfil_id" id="AB2BB038-7949-01EF-49E2-461E2F10B869">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:15:50 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D985B948-A51D-F4BD-6D6E-17F405924234" referredColumn="8C617289-3C5F-13CB-838C-8485346B193B"/>
+</associations>
+</Column>
+<Column name="caracteristica_id" id="4C38DBF2-FAF8-9933-7AF4-BA699EF139E6">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:15:50 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BD84978-F734-4990-E2A6-8F88DDD5DC2F" referredColumn="6F2B8911-26D0-B344-1994-2013016D4CB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70B60117-7349-55A2-82B1-665CF6B52FFB" name="perfil_has_caracteristica_PK">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:15:50 UTC</createdTime>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB2BB038-7949-01EF-49E2-461E2F10B869"/>
+<colUsage columnID="4C38DBF2-FAF8-9933-7AF4-BA699EF139E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B861376D-0E8E-34B3-9FDE-79F69FEA3DFE" name="perfil_has_caracteristica_perfil_FK">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:15:50 UTC</createdTime>
+<generatorID>FB11B61B-D455-999D-C913-9BED2EB088B4</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB2BB038-7949-01EF-49E2-461E2F10B869"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81B2AAFA-E678-48EF-FD03-389DFA752D4F" name="perfil_has_caracteristica_caracteristica_FK">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:15:50 UTC</createdTime>
+<generatorID>FB11B61B-D455-999D-C913-9BED2EB088B4</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C38DBF2-FAF8-9933-7AF4-BA699EF139E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

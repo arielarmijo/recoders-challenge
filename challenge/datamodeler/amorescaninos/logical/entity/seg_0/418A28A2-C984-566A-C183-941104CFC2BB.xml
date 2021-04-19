@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="418A28A2-C984-566A-C183-941104CFC2BB" name="caracteristica">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>97074579-7A09-28E6-8206-69CB09A4DADC</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="288DF591-CDCC-5D5B-4B82-8319413251A0">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>6F2B8911-26D0-B344-1994-2013016D4CB7</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="81CAF39F-2E4B-92E0-EBCE-F2BE032CAB19">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>239F5460-F84D-3DB7-66EB-AFCDE7024381</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A59A31FD-6F92-AEEB-76B6-9B6ED3EA210B" name="caracteristica PK">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>275E10EF-C74B-6679-E054-03C757CFC11F</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>288DF591-CDCC-5D5B-4B82-8319413251A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

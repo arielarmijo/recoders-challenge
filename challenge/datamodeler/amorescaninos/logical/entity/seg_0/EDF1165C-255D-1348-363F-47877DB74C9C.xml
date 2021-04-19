@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDF1165C-255D-1348-363F-47877DB74C9C" name="raza">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>9025F3B9-9857-C40D-CD38-EEFDD5604B32</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8DA7F4A0-BF3F-2151-F9E4-FC2DE28C8CBA">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>892F9EFC-A9DF-7C0F-BE7E-C737EDAE13C2</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9015B624-12C6-88DD-093E-F07DF1A014FC">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>DAD5804C-7B0B-669F-82C5-2115208F6907</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E9EA4D2-4D56-BDDD-6B8C-08E331669A5F" name="raza PK">
+<createdBy>aarmijo</createdBy>
+<createdTime>2020-11-16 20:13:26 UTC</createdTime>
+<generatorID>C5F1DC00-6B08-96DD-8276-1D013D212830</generatorID>
+<ownerDesignName>amorescaninos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9AC4DF8-4D5D-C560-C31F-F130867785E5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DA7F4A0-BF3F-2151-F9E4-FC2DE28C8CBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
