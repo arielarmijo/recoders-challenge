@@ -74,8 +74,6 @@ INSERT INTO caracteristica (id, nombre) VALUES (50,'Amante del aire libre');
 INSERT INTO caracteristica (id, nombre) VALUES (51,'Gruñón');
 INSERT INTO caracteristica (id, nombre) VALUES (52,'Destructor');
 
-set define off;
-
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)
   VALUES (1,'Diana','Hembra',4,'¿Quieres ir a pasear al parque? Ya somos dos','https://p0.pxfuel.com/preview/344/599/609/pet-dog-animals-cute.jpg',2);
 INSERT INTO perfil (id, nombre, genero, edad, frase, url_imagen, raza_id)

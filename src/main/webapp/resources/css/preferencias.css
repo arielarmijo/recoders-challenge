@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+body {
+	background-color: 
+}
 input[type=radio], input[type=checkbox] {
 	margin-right: 8px;
 }
